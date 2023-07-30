@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto;
+    font-weight: 400;
+    background-position: 100%;
+    background-color: rgba(59, 63, 69, 1);
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    margin: 0;
+}
+
+.header {
+    text-align: center;
+    color: rgba(255, 137, 132, 1);
+    background: rgba(74, 79, 86, 1);
+    padding: 19px 10px 12px; 
+    margin: 0;
+}
+
+.header h1 {
+    margin-bottom: 4px;
+}
+
+.header:last-child {
+font-size: 16px;
+line-height: 18.75px;
+letter-spacing: 0em;
+}
+
+.list {
+    text-align: center;
+    margin: 0px 130px;
+    list-style-type: none;
+}
+
+main {
+    background: rgba(59, 63, 69, 1);
+    margin: 0;
+    padding: 20px;
+}
+
+.list-item {
+    position: relative;
+    padding: 11px 10px 13px;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    border-top: 3px solid rgba(136, 131, 158, 1);
+    border-bottom: 3px solid rgba(136, 131, 158, 1);
+    background: rgba(136, 131, 158, 1);
+}
+
+.dark {
+    border-top: 3px solid rgba(122, 117, 147, 1);
+    border-bottom: 3px solid rgba(122, 117, 147, 1);
+    background: rgba(122, 117, 147, 1);
+}
+
+[type="checkbox"] {
+    width: 0;
+    height: 0;
+}
+
+[type="checkbox"]::before {
+    content: "";
+    width: 19px;
+    height: 19px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px dotted white;
+    border-radius: 0px;
+    display: block;
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    z-index: 10;
+}
+
+.list span {
+    margin-left: 35px;
+}
+
+.list-item:hover {
+    background: rgba(98, 94, 119, 1);
+    border-top: 3px solid rgba(255, 255, 255, 1);
+    border-bottom: 3px solid rgba(255, 255, 255, 1);
+}
+
+.list-item:active {
+    background-color: rgba(255, 137, 132, 1);
+}
+
+.list small::before {
+    content: "(";
+}
+
+.list small::after {
+    content: ")";
+}
+
+.list small {    
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+}
+
+
+
+[type="checkbox"]:checked:before {
+    content: "";
+    background: rgba(255, 255, 255, 1) url("../img/Vector\ 1.png") no-repeat center;
+}  
+
+[type="checkbox"]:checked ~ span, 
+[type="checkbox"]:checked ~ small {
+    text-decoration-line: line-through;
+     color:rgba(155, 150, 172, 1);
+}
+
+footer {
+    text-align: center;
+    margin: 0px 147px;
+    background: rgba(74, 79, 86, 1);
+    color: rgba(255, 137, 132, 1);
+    padding: 12px 0;
+
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    margin: 0;
+}
