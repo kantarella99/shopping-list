@@ -35,7 +35,7 @@ letter-spacing: 0em;
 
 .list {
     text-align: center;
-    margin: 0px 130px;
+    margin: 0 30%;
     list-style-type: none;
 }
 
@@ -127,7 +127,7 @@ main {
 
 footer {
     text-align: center;
-    margin: 0px 147px;
+    margin: 0px 31%;
     background: rgba(74, 79, 86, 1);
     color: rgba(255, 137, 132, 1);
     padding: 12px 0;
